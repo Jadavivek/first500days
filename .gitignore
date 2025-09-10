@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore environment files with API keys
+.env
+
+# Ignore pycache
+__pycache__/
+*.pyc
+
+# Ignore other FAISS indexes except medical
+faiss_index_*
+!faiss_index_medical/   # <-- Keep this one in Git
